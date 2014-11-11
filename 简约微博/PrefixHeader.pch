@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  简约微博
+//
+//  Created by 曹晓波 on 14/11/11.
+//  Copyright (c) 2014年 曹晓波. All rights reserved.
+//
+
+#ifndef _____PrefixHeader_pch
+#define _____PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#endif

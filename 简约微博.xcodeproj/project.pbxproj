@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44763511A0F399B00F57B51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B447633F1A0F399B00F57B51 /* AppDelegate.m */; };
+		B44763531A0F399B00F57B51 /* XBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44763451A0F399B00F57B51 /* XBTabBarController.m */; };
+		B44763541A0F399B00F57B51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B44763461A0F399B00F57B51 /* main.m */; };
+		B4B1D3E71A0EEE0B00900DC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B1D3E61A0EEE0B00900DC2 /* Images.xcassets */; };
+		B4B1D3EA1A0EEE0B00900DC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B1D3E81A0EEE0B00900DC2 /* LaunchScreen.xib */; };
+		B4B1D3F61A0EEE0B00900DC2 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B1D3F51A0EEE0B00900DC2 /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4B1D3F01A0EEE0B00900DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4B1D3CE1A0EEE0B00900DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B1D3D51A0EEE0B00900DC2;
+			remoteInfo = "简约微博";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B41D37BE1A12517300AE8EAE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B447633E1A0F399B00F57B51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B447633F1A0F399B00F57B51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B44763441A0F399B00F57B51 /* XBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBarController.h; sourceTree = "<group>"; };
+		B44763451A0F399B00F57B51 /* XBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBarController.m; sourceTree = "<group>"; };
+		B44763461A0F399B00F57B51 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B1D3D61A0EEE0B00900DC2 /* 简约微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "简约微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B1D3DA1A0EEE0B00900DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B1D3E61A0EEE0B00900DC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4B1D3E91A0EEE0B00900DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B4B1D3EF1A0EEE0B00900DC2 /* 简约微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "简约微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B1D3F41A0EEE0B00900DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B1D3F51A0EEE0B00900DC2 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B1D3D31A0EEE0B00900DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B1D3EC1A0EEE0B00900DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B44763331A0F399B00F57B51 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				B44763341A0F399B00F57B51 /* Discover */,
+				B44763381A0F399B00F57B51 /* Home */,
+				B447633C1A0F399B00F57B51 /* Main */,
+				B44763491A0F399B00F57B51 /* Message */,
+				B447634D1A0F399B00F57B51 /* Porfile */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		B44763341A0F399B00F57B51 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B44763351A0F399B00F57B51 /* Controller */,
+				B44763361A0F399B00F57B51 /* Model */,
+				B44763371A0F399B00F57B51 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B44763351A0F399B00F57B51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B44763361A0F399B00F57B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44763371A0F399B00F57B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44763381A0F399B00F57B51 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B44763391A0F399B00F57B51 /* Controller */,
+				B447633A1A0F399B00F57B51 /* Model */,
+				B447633B1A0F399B00F57B51 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B44763391A0F399B00F57B51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B447633A1A0F399B00F57B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B447633B1A0F399B00F57B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B447633C1A0F399B00F57B51 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B447633D1A0F399B00F57B51 /* AppDelegate */,
+				B44763401A0F399B00F57B51 /* Category */,
+				B44763411A0F399B00F57B51 /* Controller */,
+				B44763461A0F399B00F57B51 /* main.m */,
+				B44763471A0F399B00F57B51 /* Model */,
+				B44763481A0F399B00F57B51 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B447633D1A0F399B00F57B51 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B447633E1A0F399B00F57B51 /* AppDelegate.h */,
+				B447633F1A0F399B00F57B51 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B44763401A0F399B00F57B51 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B44763411A0F399B00F57B51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44763441A0F399B00F57B51 /* XBTabBarController.h */,
+				B44763451A0F399B00F57B51 /* XBTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B44763471A0F399B00F57B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44763481A0F399B00F57B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44763491A0F399B00F57B51 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B447634A1A0F399B00F57B51 /* Controller */,
+				B447634B1A0F399B00F57B51 /* Model */,
+				B447634C1A0F399B00F57B51 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B447634A1A0F399B00F57B51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B447634B1A0F399B00F57B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B447634C1A0F399B00F57B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B447634D1A0F399B00F57B51 /* Porfile */ = {
+			isa = PBXGroup;
+			children = (
+				B447634E1A0F399B00F57B51 /* Controller */,
+				B447634F1A0F399B00F57B51 /* Model */,
+				B44763501A0F399B00F57B51 /* View */,
+			);
+			path = Porfile;
+			sourceTree = "<group>";
+		};
+		B447634E1A0F399B00F57B51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B447634F1A0F399B00F57B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44763501A0F399B00F57B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4B1D3CD1A0EEE0B00900DC2 = {
+			isa = PBXGroup;
+			children = (
+				B4B1D3D81A0EEE0B00900DC2 /* 简约微博 */,
+				B4B1D3F21A0EEE0B00900DC2 /* 简约微博Tests */,
+				B4B1D3D71A0EEE0B00900DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B1D3D71A0EEE0B00900DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B1D3D61A0EEE0B00900DC2 /* 简约微博.app */,
+				B4B1D3EF1A0EEE0B00900DC2 /* 简约微博Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B1D3D81A0EEE0B00900DC2 /* 简约微博 */ = {
+			isa = PBXGroup;
+			children = (
+				B44763331A0F399B00F57B51 /* classes */,
+				B4B1D3D91A0EEE0B00900DC2 /* Supporting Files */,
+			);
+			path = "简约微博";
+			sourceTree = "<group>";
+		};
+		B4B1D3D91A0EEE0B00900DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B1D3E81A0EEE0B00900DC2 /* LaunchScreen.xib */,
+				B4B1D3E61A0EEE0B00900DC2 /* Images.xcassets */,
+				B4B1D3DA1A0EEE0B00900DC2 /* Info.plist */,
+				B41D37BE1A12517300AE8EAE /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4B1D3F21A0EEE0B00900DC2 /* 简约微博Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B1D3F51A0EEE0B00900DC2 /* ____Tests.m */,
+				B4B1D3F31A0EEE0B00900DC2 /* Supporting Files */,
+			);
+			path = "简约微博Tests";
+			sourceTree = "<group>";
+		};
+		B4B1D3F31A0EEE0B00900DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B1D3F41A0EEE0B00900DC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B1D3D51A0EEE0B00900DC2 /* 简约微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B1D3F91A0EEE0B00900DC2 /* Build configuration list for PBXNativeTarget "简约微博" */;
+			buildPhases = (
+				B4B1D3D21A0EEE0B00900DC2 /* Sources */,
+				B4B1D3D31A0EEE0B00900DC2 /* Frameworks */,
+				B4B1D3D41A0EEE0B00900DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "简约微博";
+			productName = "简约微博";
+			productReference = B4B1D3D61A0EEE0B00900DC2 /* 简约微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4B1D3EE1A0EEE0B00900DC2 /* 简约微博Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B1D3FC1A0EEE0B00900DC2 /* Build configuration list for PBXNativeTarget "简约微博Tests" */;
+			buildPhases = (
+				B4B1D3EB1A0EEE0B00900DC2 /* Sources */,
+				B4B1D3EC1A0EEE0B00900DC2 /* Frameworks */,
+				B4B1D3ED1A0EEE0B00900DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B1D3F11A0EEE0B00900DC2 /* PBXTargetDependency */,
+			);
+			name = "简约微博Tests";
+			productName = "简约微博Tests";
+			productReference = B4B1D3EF1A0EEE0B00900DC2 /* 简约微博Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B1D3CE1A0EEE0B00900DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "曹晓波";
+				TargetAttributes = {
+					B4B1D3D51A0EEE0B00900DC2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B4B1D3EE1A0EEE0B00900DC2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B4B1D3D51A0EEE0B00900DC2;
+					};
+				};
+			};
+			buildConfigurationList = B4B1D3D11A0EEE0B00900DC2 /* Build configuration list for PBXProject "简约微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4B1D3CD1A0EEE0B00900DC2;
+			productRefGroup = B4B1D3D71A0EEE0B00900DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B1D3D51A0EEE0B00900DC2 /* 简约微博 */,
+				B4B1D3EE1A0EEE0B00900DC2 /* 简约微博Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B1D3D41A0EEE0B00900DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B1D3EA1A0EEE0B00900DC2 /* LaunchScreen.xib in Resources */,
+				B4B1D3E71A0EEE0B00900DC2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B1D3ED1A0EEE0B00900DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B1D3D21A0EEE0B00900DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44763531A0F399B00F57B51 /* XBTabBarController.m in Sources */,
+				B44763541A0F399B00F57B51 /* main.m in Sources */,
+				B44763511A0F399B00F57B51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B1D3EB1A0EEE0B00900DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B1D3F61A0EEE0B00900DC2 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4B1D3F11A0EEE0B00900DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B1D3D51A0EEE0B00900DC2 /* 简约微博 */;
+			targetProxy = B4B1D3F01A0EEE0B00900DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4B1D3E81A0EEE0B00900DC2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B1D3E91A0EEE0B00900DC2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4B1D3F71A0EEE0B00900DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4B1D3F81A0EEE0B00900DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B1D3FA1A0EEE0B00900DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/简约微博/PrefixHeader.pch";
+				INFOPLIST_FILE = "简约微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4B1D3FB1A0EEE0B00900DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/简约微博/PrefixHeader.pch";
+				INFOPLIST_FILE = "简约微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4B1D3FD1A0EEE0B00900DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "简约微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/简约微博.app/简约微博";
+			};
+			name = Debug;
+		};
+		B4B1D3FE1A0EEE0B00900DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "简约微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/简约微博.app/简约微博";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B1D3D11A0EEE0B00900DC2 /* Build configuration list for PBXProject "简约微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B1D3F71A0EEE0B00900DC2 /* Debug */,
+				B4B1D3F81A0EEE0B00900DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B1D3F91A0EEE0B00900DC2 /* Build configuration list for PBXNativeTarget "简约微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B1D3FA1A0EEE0B00900DC2 /* Debug */,
+				B4B1D3FB1A0EEE0B00900DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B1D3FC1A0EEE0B00900DC2 /* Build configuration list for PBXNativeTarget "简约微博Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B1D3FD1A0EEE0B00900DC2 /* Debug */,
+				B4B1D3FE1A0EEE0B00900DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B1D3CE1A0EEE0B00900DC2 /* Project object */;
+}
